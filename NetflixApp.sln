@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixApp", "NetflixApp\NetflixApp.csproj", "{F28005C4-5116-4756-B510-B369B4690447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F28005C4-5116-4756-B510-B369B4690447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28005C4-5116-4756-B510-B369B4690447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28005C4-5116-4756-B510-B369B4690447}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F28005C4-5116-4756-B510-B369B4690447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28005C4-5116-4756-B510-B369B4690447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28005C4-5116-4756-B510-B369B4690447}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A3476A7-45E1-4326-B671-CE4336579DE3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NetflixApp.TercerPage">
+
+    <Grid BackgroundColor="#0C0C0C">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label Text="Datos del Programador" TextColor="#DF0A14" FontSize="23" Margin="0,2,0,0" HorizontalOptions="Start" />
+
+        <Image Source="perfilprogramador.png" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="0,110,0,0" />
+
+        <Label Text="Cócaro Lucia Guadalupe" TextColor="#FFFFFF" FontSize="17" Margin="0,32,0,0" />
+
+        <Label Text="Datos de Contacto" TextColor="#DF0A14" FontSize="23"  Margin="0,48,0,0" />
+
+        <Label Text="Correo electrónico: cocaroluciag@gmail.com" TextColor="#FFFFFF" FontSize="17" Margin="0,73,0,0" />
+
+        <Label Text="Número telefónico: 2954 497786" TextColor="#FFFFFF" FontSize="17" Margin="0,89,0,0" />
+
+        <Button Text="Volver" Clicked="VolverLoginTerceraActivity" BackgroundColor="#DF0A14" TextColor="White" HorizontalOptions="Start" VerticalOptions="End" Margin="5,0,0,-50" />
+
+        <Button Text="Llamar" Clicked="OnLlamarClicked" BackgroundColor="#DF0A14" TextColor="White" HorizontalOptions="Start" VerticalOptions="Start" Margin="255,5,0,0" />
+
+        <Button Text="Enviar Correo" Clicked="OnEnviarCorreoClicked" BackgroundColor="#DF0A14" TextColor="White" HorizontalOptions="Start" VerticalOptions="End" Margin="100,0,0,-50" />
+
+        <Button Text="Salir al Login" Clicked="OnSalirLoginClicked" BackgroundColor="#DF0A14" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,5,-50" />
+    </Grid>
+</ContentPage>

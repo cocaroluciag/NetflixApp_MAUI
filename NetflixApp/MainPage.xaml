@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NetflixApp.MainPage">
+
+    <Grid BackgroundColor="#000000">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Text="NETFLIX" TextColor="#DF0A14" FontSize="55" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,85,0,0"/>
+        <Image Source="netflix.png" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,4,0,0" WidthRequest="70" HeightRequest="70" />
+
+        <StackLayout Grid.Row="1" Padding="20">
+            <Entry x:Name="txtUsuario" Placeholder="Usuario" TextColor="#817D7D" Margin="0,0,0,68" />
+            <Entry x:Name="txtClave" Placeholder="Contraseña" IsPassword="True" TextColor="#817D7D" Margin="0,0,0,70" />
+            <Button Text="Ingresar" Clicked="OnLoginClicked" BackgroundColor="#DF0A14" TextColor="White" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

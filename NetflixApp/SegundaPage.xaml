@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NetflixApp.SegundaPage">
+
+    <Grid BackgroundColor="#000000">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label Text="Netflix" TextColor="#DF0A14" FontSize="48" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,20,0,0" />
+
+        <Label Text="Netflix es un servicio de streaming por suscripción que les permite a sus miembros ver series y películas en un dispositivo con conexión a internet. En función del plan que tengas, también puedes descargar series y películas en un dispositivo con iOS, Android o Windows 10 y verlas sin conexión a internet." TextColor="White" FontSize="20" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="9,160,0,0" />
+
+        <Image Source="imagenseries.png" Aspect="AspectFit" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,0,-125" />
+
+        <Image Source="imagenseriesdos.png" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,0,0,0" />
+
+        <Image Source="netflix.png" Aspect="AspectFit" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,76,0,0" WidthRequest="75" HeightRequest="75" />
+
+        <Button Text="Acerca" Clicked="OnAcercaClicked" BackgroundColor="#DF0A14" TextColor="White" HorizontalOptions="End" VerticalOptions="Start" Margin="0,74,5,0" />
+        <Button Text="Salir al Login" Clicked="OnSalirLoginClicked" BackgroundColor="#DF0A14" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,5,-48" />
+    </Grid>
+</ContentPage>
